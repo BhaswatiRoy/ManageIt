@@ -24,3 +24,13 @@ There are 2 different sections in the app as follows -
 
 <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/html5%20-%2314354C.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%2314354C.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/bootstrap%20-%2314354C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/> <img src="https://img.shields.io/badge/mysql%20-%2314354C.svg?&style=for-the-badge&logo=mysql&logoColor=white"/> 
 
+## Libraries Used -
+
+<img src="https://img.shields.io/badge/flask%20-%2314354C.svg?&style=for-the-badge&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/sqlalchemy%20-%2314354C.svg?&style=for-the-badge&logo=sqlalchemy&logoColor=white"/>
+
+## Structure Of The Project
+
+The home page of the application contains -
+  1. <b>Landing Page</b> - Here users can get started with using our application
+  2. <b>Link to Employee Section</b> - Add, Update, Delete employee details for any workplace
+  3. <b>Link to Notes Section</b> - Add, Update, Delete notes for any workplace
