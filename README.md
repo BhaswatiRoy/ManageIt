@@ -34,3 +34,20 @@ The home page of the application contains -
   1. <b>Landing Page</b> - Here users can get started with using our application
   2. <b>Link to Employee Section</b> - Add, Update, Delete employee details for any workplace
   3. <b>Link to Notes Section</b> - Add, Update, Delete notes for any workplace
+
+## UI Of The Web Application
+
+### 1. Home Page
+<pre>
+<img src="https://user-images.githubusercontent.com/78029145/179470475-9ee9759e-5e48-41a6-a9dd-26a7e16f3a8c.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179470566-f2b6059f-356e-42db-8a3b-ad3c236d57bf.png" width="1000"> 
+</pre>
+
+### 2. Employee Details Page
+<pre>
+<img src="https://user-images.githubusercontent.com/78029145/179470942-b350838a-519f-49b6-bc91-53d3de1ce7d6.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179471056-b111aadf-a6c3-43f0-863f-fedf1be9fbf1.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179471245-40e4660d-a3c8-4689-b4d4-97b3a530f133.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179471314-61853de8-5cf6-4a65-9f55-c4418269d3fa.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179471553-6b8937a3-5b23-4a2b-a14c-c21396bc2f8e.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179473003-c956ea22-3687-4f5d-842c-0db2c922b42c.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179472319-ce0ee974-80f0-49e9-84b6-961b62926720.png" width="1000">
+</pre>
+
+### 3. Notes Page
+<pre>
+<img src="https://user-images.githubusercontent.com/78029145/179474203-ce6339ae-6b63-4424-a973-2761a3b869fa.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179474259-bad9799b-dcc7-42d7-8b75-7c5731c47d7d.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179474361-475fe685-c693-4eb1-8a1c-284be84f37b8.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179474409-6ae9f999-1f75-4775-83ba-a0fdb26a5708.png" width="1000">
+</pre>
