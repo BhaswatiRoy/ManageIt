@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ManageIt Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: bisque;
+        }
+        
+        img {
+            margin-top: 50px;
+            justify-content: center;
+        }
+        
+        .my-title {
+            margin: 0 auto;
+            padding: 10px;
+        }
+        
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .navbar {
+            background-color: #228527;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar text-light">
+        <div class="container-fluid">
+            <span class="my-title mb-0 h1">ManageIt</span>
+        </div>
+    </nav>
+    <img src="/static/images/homepage.jpg" height="500px" width="700px" class="center">
+
+    <div class="container mt-5 mb-5 d-flex justify-content-around">
+        <div class="row">
+            <div class="card me-4" style="width: 18rem;">
+                <img src="/static/images/employees.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Employees Section</h5>
+                    <p class="card-text">View Add Delete the details of employees.</p>
+                    <a href="/e" class="btn btn-primary">Click Here</a>
+                </div>
+            </div>
+            <div class="card ms-4" style="width: 18rem;">
+                <img src="/static/images/notes.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Notes Section</h5>
+                    <p class="card-text">View Add Delete the notes related to workplace.</p>
+                    <a href="/n" class="btn btn-primary">Click Here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
