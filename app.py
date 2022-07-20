@@ -78,3 +78,40 @@ def deletetodo(id):
     db.session.delete(todo)
     db.session.commit()
     return redirect(url_for('notes'))
+
+#Employee Section - Insert Employee Details
+@app.route('/insert',methods=['POST'])
+def insert():
+    if request.method == 'POST':
+        #employee details taken as input is stored in database
+        name=request.form['name']
+        email=request.form['email']
+        department=request.form['department']
+        mydata=Data(name=name,email=email,department=department)
+        db.session.add(mydata)
+        db.session.commit()
+        return redirect(url_for('employee'))
+
+#Employee Section - Update Employee Details
+@app.route('/update', methods=['GET','POST'])
+def update():
+    if request.method=='POST':
+        #employee details taken as input is updated in database
+        my_data=Data.query.get(request.form.get('id'))
+        my_data.name=request.form['name']
+        my_data.email=request.form['email']
+        my_data.department=request.form['department']
+        db.session.commit()
+        return redirect(url_for('employee'))
+
+#Employee Section - Delete Employee Details
+@app.route('/delete/<id>', methods=['GET','POST'])
+def delete(id):
+    #employee detail is deleted from database
+    my_data=Data.query.get(id)
+    db.session.delete(my_data)
+    db.session.commit()
+    return redirect(url_for('employee'))
+
+if __name__=="__main__":
+    app.run(debug=True)
