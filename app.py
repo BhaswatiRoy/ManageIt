@@ -24,7 +24,8 @@ class Data(db.Model):
     name=db.Column(db.String(100))
     email=db.Column(db.String(100))
     department=db.Column(db.String(100))
-
+    
+    #initializing the variables
     def __init__(self,name,email,department):
         self.name=name
         self.email=email
@@ -32,10 +33,12 @@ class Data(db.Model):
 
 #instantiating the class for Notes Section
 class Todo(db.Model):
+    #3 columns - id(Primary Key),title,complete
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100))
     complete = db.Column(db.Boolean)
 
+    #initializing the variables
     def __init__(self,title,complete):
         self.title=title
         self.complete=complete
@@ -87,6 +90,7 @@ def insert():
         name=request.form['name']
         email=request.form['email']
         department=request.form['department']
+        #store all the data in a variable
         mydata=Data(name=name,email=email,department=department)
         db.session.add(mydata)
         db.session.commit()
@@ -113,5 +117,6 @@ def delete(id):
     db.session.commit()
     return redirect(url_for('employee'))
 
+#initialize the application and execute it
 if __name__=="__main__":
     app.run(debug=True)
