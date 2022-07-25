@@ -52,6 +52,11 @@ The home page of the application contains -
 <img src="https://user-images.githubusercontent.com/78029145/179474203-ce6339ae-6b63-4424-a973-2761a3b869fa.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179474259-bad9799b-dcc7-42d7-8b75-7c5731c47d7d.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179474361-475fe685-c693-4eb1-8a1c-284be84f37b8.png" width="1000"> <img src="https://user-images.githubusercontent.com/78029145/179474409-6ae9f999-1f75-4775-83ba-a0fdb26a5708.png" width="1000">
 </pre>
 
+## Future Prospects
+
+- Add a Login-Logout system in the application 
+- Add a Meeting Section to update about the upcoming or incomplete meetings in the workplace
+
 ## Run Locally
 
 1.1 `git clone <repo link>`
