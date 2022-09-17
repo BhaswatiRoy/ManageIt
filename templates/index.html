@@ -69,4 +69,19 @@
 
 </body>
 
+<script>
+    let i = 1;
+const sliderTime = 3000;
+const noOfImages = 4;
+
+const doSlide = () => 
+{
+  document.slide.src = "../static/slider-image/slider-image-" + i.toString(10) + ".jpg";
+  i = (i < noOfImages - 1) ? i + 1 : 1;
+  setTimeout("doSlide()", sliderTime);
+}
+
+window.onload = doSlide;
+</script>    
+    
 </html>
